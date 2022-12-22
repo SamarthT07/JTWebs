@@ -809,7 +809,6 @@ body::-webkit-scrollbar {
 
 .abcontent{
     max-width: 100%;
-    padding: 90px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -832,10 +831,6 @@ body::-webkit-scrollbar {
 
 
 
-
-@media (max-width:800px) {
-   
-}
 
 
 
