@@ -818,7 +818,7 @@ body::-webkit-scrollbar {
 }
 
 .abcontent p{
-    max-width: 95%;
+    max-width: 55%;
     font-family: 'Poppins' ,sans-serif;
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
@@ -829,7 +829,15 @@ body::-webkit-scrollbar {
 
 /* Section four responsive */
 
-
+@media (max-width:425px) {
+    .abcontent p{
+        max-width: 95%;
+        font-family: 'Poppins' ,sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+        font-weight: 300;
+    }
+}
 
 
 
