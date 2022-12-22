@@ -818,7 +818,7 @@ body::-webkit-scrollbar {
 }
 
 .abcontent p{
-    max-width: 55%;
+    max-width: 95%;
     font-family: 'Poppins' ,sans-serif;
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
