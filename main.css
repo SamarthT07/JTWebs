@@ -252,6 +252,7 @@ body::-webkit-scrollbar {
     margin-inline: auto;
 }
 
+
 .onecol{
    display: flex;
    align-items: center;
@@ -278,8 +279,30 @@ body::-webkit-scrollbar {
     background: #4c7ff6;
     background: linear-gradient(to right, #009dff 0%, rgb(0, 255, 247) 40% , #7700ff 75%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: onehe forwards ease 1s;
+    animation-delay: 1s;
+    transform: translateY(10px);
+    opacity: 0;
     /* width: 600px; */
+}
+
+@keyframes onehe {
+    0%{
+        transform: translateY(10px);
+        opacity: 0;
+        background: linear-gradient(to right, #009dff 0%, rgb(0, 255, 247) 40% , #7700ff 75%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+        background: linear-gradient(to right, #009dff 10%, rgb(0, 255, 247) 50% , #7700ff 80%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 .hered{
@@ -294,7 +317,7 @@ body::-webkit-scrollbar {
 }
 
 .onehesv svg{
-    transform: rotate3d(1,1,1,320deg);
+    transform: rotate3d(1,1,1,325deg);
     z-index: 2;
     max-width: 100%;
 }
@@ -322,7 +345,22 @@ body::-webkit-scrollbar {
     color: rgb(230, 230, 230);
     word-spacing: 2px;
     user-select: none;
-    max-width: 500px
+    max-width: 500px;
+    animation: xuvh forwards ease 1s;
+    animation-delay: 1.2s;
+    transform: translateY(-10px);
+    opacity: 0;
+}
+
+@keyframes xuvh {
+    0%{
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
 
 
@@ -829,6 +867,9 @@ body::-webkit-scrollbar {
 
 /* Section four responsive */
 
+
+
+
 @media (max-width:425px) {
     .abcontent p{
         max-width: 95%;
@@ -857,9 +898,6 @@ body::-webkit-scrollbar {
 
 
 
-
 /* footer */
-
-
 
 

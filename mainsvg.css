@@ -1,0 +1,259 @@
+/* Hero Section Animtion */
+
+.backpanel{
+    opacity: 0;
+    transform: translate(-20px , 20px);
+    animation: panel forwards ease-out 0.95s;
+    animation-delay: 1s;
+}
+
+@keyframes panel {
+    0%{
+        opacity: 0;
+    transform: translate(-20px , 20px);
+    }
+   
+    100%{
+        opacity: 1;
+    transform: translate(0px , 0px);
+    }
+}
+
+
+.navigation{
+    opacity: 0;
+    transform: translate(5px , -5px);
+    animation: navi forwards ease-out 0.95s;
+    animation-delay: 1.2s;
+}
+
+@keyframes navi {
+    0%{
+        opacity: 0;
+    transform: translate(5px , -5px);
+    }
+   
+    100%{
+        opacity: 1;
+    transform: translate(0px , 0px);
+    }
+}
+
+.cirgrp{
+    opacity: 0;
+    transform: translate(5px , -5px);
+    animation: cirgrp forwards ease-out 0.95s;
+    animation-delay: 1.6s;
+}
+
+@keyframes cirgrp {
+    0%{
+        opacity: 0;
+    transform: translate(5px , -5px);
+    }
+   
+    100%{
+        opacity: 1;
+    transform: translate(0px , 0px);
+    }
+}
+
+.search{
+    opacity: 0;
+    transform: translate(5px , -5px);
+    animation: search forwards ease-out 0.95s;
+    animation-delay: 1.9s;
+}
+
+@keyframes search {
+    0%{
+        opacity: 0;
+    transform: translate(5px , -5px);
+    }
+   
+    100%{
+        opacity: 1;
+    transform: translate(0px , 0px);
+    }
+}
+
+
+
+
+
+
+/* Side nav code */
+
+.sidenavbar{
+    opacity: 0;
+    transform: translate(5px , -5px);
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 1.5s;
+}
+
+@keyframes sidenav {
+    0%{
+        opacity: 0;
+    transform: translate(5px , -5px);
+    }
+   
+    100%{
+        opacity: 1;
+    transform: translate(0px , 0px);
+    }
+}
+
+.bignavbar{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 1.7s;
+}
+
+.not{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 1.4s;
+}
+
+.activenav{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 1.65s;
+}
+
+.navicon{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 1.75s;
+}
+
+.navtext{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 1.9s;
+}
+
+
+
+
+
+
+
+/* middle content code */
+
+.logobox{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 1.4s;
+}
+
+.jtlogo{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 1.66s;
+}
+
+.optone{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 1.55s;
+}
+
+.liney{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 1.66s;
+}
+
+.bodytext{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 2.3s;
+}
+
+.centerone{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 1.77s;
+}
+
+.midsvg{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 2s;
+}
+
+.centerone:first-child{
+    animation-delay: 1.99s;
+}
+
+svg .centerone:nth-of-type(2){
+    animation-delay: 1.88s;
+}
+
+.centerone:nth-child(3){
+    animation-delay: 1.99s;
+}
+
+.centerone:nth-child(4){
+    animation-delay: 2.11s;
+}
+
+
+
+
+/* right side code */
+
+.sidetxt{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 2.4s;
+}
+
+.rightbar{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 1.55s;
+}
+
+.righttopbox{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 1.66s;
+}
+
+.rightsvg{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 1.88s;
+}
+
+.profilecircle{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 1.88s;
+}
+
+.profilesvg{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 2s;
+}
+
+.rightbottombox{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 2.11s;
+}
+
+.percent{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 1.88s;
+}
+
+.arrow{
+    opacity: 0;
+    animation: sidenav forwards ease-out 0.95s;
+    animation-delay: 2.44s;
+}
