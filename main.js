@@ -78,7 +78,27 @@ const nali = document.querySelector(".nali");
 const unli = document.querySelector(".unli");
 
 hamburg.addEventListener("click" , ()=>{
+  hamburg.classList.toggle("active")
+    nali.classList.toggle("active");
+    unli.classList.toggle("active");
+
+    if(hamburg.classList.contains("active")){
+      hamburg.addEventListener("click" , ()=>{
+       hamburg.classList.toggle("is-active");
+       nali.classList.toggle("is-active");
+    unli.classList.toggle("is-active");
+      })
+    }
+})
+
+const abli = document.querySelectorAll(".abli");
+
+
+
+for (let i = 0; i < abli.length; i++) {
+  abli[i].addEventListener("click", function() {
     hamburg.classList.toggle("active");
     nali.classList.toggle("active");
     unli.classList.toggle("active");
-})
+  });
+}
