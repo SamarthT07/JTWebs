@@ -71,3 +71,14 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 });
+
+const hamburg = document.querySelector(".hamburg");
+const hamlines = document.querySelector(".hamlines");
+const nali = document.querySelector(".nali");
+const unli = document.querySelector(".unli");
+
+hamburg.addEventListener("click" , ()=>{
+    hamburg.classList.toggle("active");
+    nali.classList.toggle("active");
+    unli.classList.toggle("active");
+})
