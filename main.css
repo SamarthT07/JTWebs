@@ -1119,6 +1119,22 @@ body::-webkit-scrollbar {
     margin-inline: auto;
 }
 
+.gmail{
+    text-decoration: none;
+    color: white;
+}
+
+.calldial{
+    text-decoration: none;
+    color: white;
+}
+
+.call{
+    user-select: auto;
+    cursor: pointer;
+}
+
+
 
 
 .innerfooter{
@@ -1278,7 +1294,7 @@ body::-webkit-scrollbar {
     display: flex;
     align-items: center;
     justify-content: center;
-   
+    z-index: 11;
     gap: 2rem;
 }
 

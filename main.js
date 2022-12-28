@@ -102,3 +102,11 @@ for (let i = 0; i < abli.length; i++) {
     unli.classList.toggle("active");
   });
 }
+
+const abcnou = document.querySelector(".abcnou");
+
+abcnou.addEventListener("click" , ()=>{
+  hamburg.classList.toggle("active");
+  nali.classList.toggle("active");
+  unli.classList.toggle("active");
+})
